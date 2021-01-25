@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-25T01:17:04 CET" name="Default suite" finished-at="2021-01-25T01:17:06 CET" duration-ms="1701">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFiles.RunTestNGTest@6973b51b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-01-25T01:17:04 CET" name="Default test" finished-at="2021-01-25T01:17:06 CET" duration-ms="1701">
+      <class name="runnerFiles.RunTestNGTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runnerFiles.RunTestNGTest@6973b51b]" started-at="2021-01-25T01:17:04 CET" name="setUpClass" finished-at="2021-01-25T01:17:04 CET" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFiles.RunTestNGTest@6973b51b]" started-at="2021-01-25T01:17:04 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-25T01:17:05 CET" duration-ms="1213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change address of a subscriber residing in France"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[update subscriber address]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFiles.RunTestNGTest@6973b51b]" started-at="2021-01-25T01:17:05 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-25T01:17:05 CET" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change address of a subscriber residing in France"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[update subscriber address]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFiles.RunTestNGTest@6973b51b]" started-at="2021-01-25T01:17:05 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-25T01:17:05 CET" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change address of a subscriber not residing in France"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[update subscriber address]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runnerFiles.RunTestNGTest@6973b51b]" started-at="2021-01-25T01:17:05 CET" name="tearDownClass" finished-at="2021-01-25T01:17:06 CET" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerFiles.RunTestNGTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

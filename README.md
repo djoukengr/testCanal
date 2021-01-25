@@ -7,8 +7,9 @@ Ce dépot Github contient les sources de l'API et des tests cucumber permettant 
  2. se positionner dans le repertoire testCanal
     cd testCanal
  3. ensuite dans le repertoire executer les deux commandes ci-dessous selon que vous soyez sur Windows ou linux
+    
     WINDOWS
-   a. lancer l'api
+   a. lancer l'api (assurer vous d'avoir la JVM et le compilateur java 1.8 installé)
        mvnw spring-boot:run  // cette commande va télécharger Tomcat et toutes les dépendances nécessaires pour compiler et déployer l'API.
 	   
    b.   mvwn test  // permet d'executer les scenarii cucumber en faisant des appels reels sur l'API.
@@ -18,7 +19,8 @@ Ce dépot Github contient les sources de l'API et des tests cucumber permettant 
        chmod 744 mvnw
    b. lancer l'API
      ./mvnw spring-boot:run
-   c. mvnw test
+   c. Exécuter les tests (l'execution des tests fera des appels réels sur l'API
+     mvnw test
  
  ================================
  Question3. Pour garantir la qualité du code j'ai mis en place.
